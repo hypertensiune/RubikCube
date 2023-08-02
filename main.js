@@ -267,9 +267,9 @@ function rotateOnAxis(axis, direction, angle = Math.PI / 2, done = 0) {
 function start() {
     createCubes();
 
-    window.addEventListener("mousedown", onMouseDown);
-    window.addEventListener("mousemove", onMouseMove);
-    window.addEventListener("mouseup", onMouseUp);
+    window.addEventListener("pointerdown", onMouseDown);
+    window.addEventListener("pointermove", onMouseMove);
+    window.addEventListener("pointerup", onMouseUp);
 
     window.addEventListener( 'resize', function(){
 
